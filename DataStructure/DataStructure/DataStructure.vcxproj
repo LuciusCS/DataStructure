@@ -111,21 +111,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\10.2InsertSort.cpp" />
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\10.3QuickSort.cpp" />
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\10.4SelectionSort.cpp" />
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\10.5MergingSort.cpp" />
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\10.6RadixSort.cpp" />
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\3.2Operator.cpp" />
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\3.4.3QueueCircle.cpp" />
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\3.4Queue.cpp" />
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\3Stack.cpp" />
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\5Array.cpp" />
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\6BinaryTree.cpp" />
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\9Search.cpp" />
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\GraphStore.cpp" />
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\Hanoi.cpp" />
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\LinkList.cpp" />
+    <ClCompile Include="10.2InsertSort.cpp" />
+    <ClCompile Include="10.3QuickSort.cpp" />
+    <ClCompile Include="10.4SelectionSort.cpp" />
+    <ClCompile Include="10.5MergingSort.cpp" />
+    <ClCompile Include="10.6RadixSort.cpp" />
+    <ClCompile Include="3.2Operator.cpp" />
+    <ClCompile Include="3.4.3QueueCircle.cpp" />
+    <ClCompile Include="3.4Queue.cpp" />
+    <ClCompile Include="3Stack.cpp" />
+    <ClCompile Include="5Array.cpp" />
+    <ClCompile Include="6BinaryTree.cpp" />
+    <ClCompile Include="9Search.cpp" />
+    <ClCompile Include="GraphStore.cpp" />
+    <ClCompile Include="Hanoi.cpp" />
+    <ClCompile Include="LinkList.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -39,49 +39,49 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\10.6RadixSort.cpp">
-      <Filter>Source Files\Sort</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\10.2InsertSort.cpp">
-      <Filter>Source Files\Sort</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\10.3QuickSort.cpp">
-      <Filter>Source Files\Sort</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\10.4SelectionSort.cpp">
-      <Filter>Source Files\Sort</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\10.5MergingSort.cpp">
-      <Filter>Source Files\Sort</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\3Stack.cpp">
-      <Filter>Source Files\Stack</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\6BinaryTree.cpp">
-      <Filter>Source Files\BinaryTree</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\3.4.3QueueCircle.cpp">
-      <Filter>Source Files\Queue</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\3.4Queue.cpp">
-      <Filter>Source Files\Queue</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\3.2Operator.cpp">
-      <Filter>Source Files\Stack</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\GraphStore.cpp">
-      <Filter>Source Files\Graph</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\LinkList.cpp">
-      <Filter>Source Files\LinearList</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\5Array.cpp">
+    <ClCompile Include="5Array.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\9Search.cpp">
+    <ClCompile Include="6BinaryTree.cpp">
+      <Filter>Source Files\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphStore.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkList.cpp">
+      <Filter>Source Files\LinearList</Filter>
+    </ClCompile>
+    <ClCompile Include="3.4.3QueueCircle.cpp">
+      <Filter>Source Files\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="3.4Queue.cpp">
+      <Filter>Source Files\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="9Search.cpp">
       <Filter>Source Files\Search</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\DataStructer\DataStructer\Hanoi.cpp">
+    <ClCompile Include="10.2InsertSort.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="10.3QuickSort.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="10.4SelectionSort.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="10.5MergingSort.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="10.6RadixSort.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="3.2Operator.cpp">
+      <Filter>Source Files\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="3Stack.cpp">
+      <Filter>Source Files\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Hanoi.cpp">
       <Filter>Source Files\Stack</Filter>
     </ClCompile>
   </ItemGroup>
