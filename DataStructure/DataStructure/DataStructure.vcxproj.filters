@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Sort">
+      <UniqueIdentifier>{18d6a74b-dcf8-49cd-9da0-60df6710b63f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stack">
+      <UniqueIdentifier>{3eb11fca-cd62-4598-979f-f6047f05a53d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BinaryTree">
+      <UniqueIdentifier>{4dd649e7-2123-43ee-9956-4e5210cbaec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Queue">
+      <UniqueIdentifier>{ffef683b-d55f-443d-ab2c-bc2b6539f813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graph">
+      <UniqueIdentifier>{ff52d616-9955-45ed-afd1-8ba8e07ced3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LinearList">
+      <UniqueIdentifier>{65b949b3-37ef-4c8f-ac98-d0236c98ecec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array">
+      <UniqueIdentifier>{fbb9f343-c232-4f8b-9705-c8275751eae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Search">
+      <UniqueIdentifier>{84398327-cc28-4698-836b-0a5a0d71d3e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\DataStructer\DataStructer\10.6RadixSort.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DataStructer\DataStructer\10.2InsertSort.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DataStructer\DataStructer\10.3QuickSort.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DataStructer\DataStructer\10.4SelectionSort.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DataStructer\DataStructer\10.5MergingSort.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DataStructer\DataStructer\3Stack.cpp">
+      <Filter>Source Files\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DataStructer\DataStructer\6BinaryTree.cpp">
+      <Filter>Source Files\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DataStructer\DataStructer\3.4.3QueueCircle.cpp">
+      <Filter>Source Files\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DataStructer\DataStructer\3.4Queue.cpp">
+      <Filter>Source Files\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DataStructer\DataStructer\3.2Operator.cpp">
+      <Filter>Source Files\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DataStructer\DataStructer\GraphStore.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DataStructer\DataStructer\LinkList.cpp">
+      <Filter>Source Files\LinearList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DataStructer\DataStructer\5Array.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DataStructer\DataStructer\9Search.cpp">
+      <Filter>Source Files\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DataStructer\DataStructer\Hanoi.cpp">
+      <Filter>Source Files\Stack</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
