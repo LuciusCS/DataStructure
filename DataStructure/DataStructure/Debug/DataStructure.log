@@ -1,28 +1,3 @@
-﻿  LinkList.cpp
-d:\project\visualstudio\datastructure\datastructure\datastructure\linklist.cpp(84): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
-  Hanoi.cpp
-  GraphStore.cpp
-d:\project\visualstudio\datastructure\datastructure\datastructure\graphstore.cpp(12): warning C4091: 'typedef ': ignored on left of 'ArcCell' when no variable is declared
-d:\project\visualstudio\datastructure\datastructure\datastructure\graphstore.cpp(18): warning C4094: untagged 'struct' declared no symbols
-  9Search.cpp
-  6BinaryTree.cpp
-d:\project\visualstudio\datastructure\datastructure\datastructure\6binarytree.cpp(21): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
-  5Array.cpp
-  3Stack.cpp
-d:\project\visualstudio\datastructure\datastructure\datastructure\3stack.cpp(147): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
-d:\project\visualstudio\datastructure\datastructure\datastructure\3stack.cpp(166): warning C4101: 'tmp': unreferenced local variable
-  3.4Queue.cpp
-  3.4.3QueueCircle.cpp
-  3.2Operator.cpp
-  10.6RadixSort.cpp
-  10.5MergingSort.cpp
-  10.4SelectionSort.cpp
-  10.3QuickSort.cpp
-  10.2InsertSort.cpp
-  Generating Code...
-  LINK : D:\project\VisualStudio\DataStructure\DataStructure\Debug\DataStructure.exe not found or not built by the last incremental link; performing full link
+﻿  5.2Array.cpp
   DataStructure.vcxproj -> D:\project\VisualStudio\DataStructure\DataStructure\Debug\DataStructure.exe
   DataStructure.vcxproj -> D:\project\VisualStudio\DataStructure\DataStructure\Debug\DataStructure.pdb (Partial PDB)

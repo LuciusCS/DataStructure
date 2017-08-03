@@ -116,16 +116,16 @@
     <ClCompile Include="10.4SelectionSort.cpp" />
     <ClCompile Include="10.5MergingSort.cpp" />
     <ClCompile Include="10.6RadixSort.cpp" />
-    <ClCompile Include="3.2Operator.cpp" />
+    <ClCompile Include="3.2.5Operator.cpp" />
     <ClCompile Include="3.4.3QueueCircle.cpp" />
-    <ClCompile Include="3.4Queue.cpp" />
-    <ClCompile Include="3Stack.cpp" />
-    <ClCompile Include="5Array.cpp" />
-    <ClCompile Include="6BinaryTree.cpp" />
-    <ClCompile Include="9Search.cpp" />
-    <ClCompile Include="GraphStore.cpp" />
+    <ClCompile Include="3.4.2Queue.cpp" />
+    <ClCompile Include="3.1Stack.cpp" />
+    <ClCompile Include="5.2Array.cpp" />
+    <ClCompile Include="6.2BinaryTree.cpp" />
+    <ClCompile Include="9.1StaticSearch.cpp" />
+    <ClCompile Include="7.2GraphStore.cpp" />
     <ClCompile Include="Hanoi.cpp" />
-    <ClCompile Include="LinkList.cpp" />
+    <ClCompile Include="2.3LinkList.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -39,26 +39,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="5Array.cpp">
-      <Filter>Source Files\Array</Filter>
-    </ClCompile>
-    <ClCompile Include="6BinaryTree.cpp">
-      <Filter>Source Files\BinaryTree</Filter>
-    </ClCompile>
-    <ClCompile Include="GraphStore.cpp">
-      <Filter>Source Files\Graph</Filter>
-    </ClCompile>
-    <ClCompile Include="LinkList.cpp">
-      <Filter>Source Files\LinearList</Filter>
-    </ClCompile>
     <ClCompile Include="3.4.3QueueCircle.cpp">
       <Filter>Source Files\Queue</Filter>
-    </ClCompile>
-    <ClCompile Include="3.4Queue.cpp">
-      <Filter>Source Files\Queue</Filter>
-    </ClCompile>
-    <ClCompile Include="9Search.cpp">
-      <Filter>Source Files\Search</Filter>
     </ClCompile>
     <ClCompile Include="10.2InsertSort.cpp">
       <Filter>Source Files\Sort</Filter>
@@ -75,13 +57,31 @@
     <ClCompile Include="10.6RadixSort.cpp">
       <Filter>Source Files\Sort</Filter>
     </ClCompile>
-    <ClCompile Include="3.2Operator.cpp">
-      <Filter>Source Files\Stack</Filter>
-    </ClCompile>
-    <ClCompile Include="3Stack.cpp">
-      <Filter>Source Files\Stack</Filter>
-    </ClCompile>
     <ClCompile Include="Hanoi.cpp">
+      <Filter>Source Files\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="5.2Array.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="6.2BinaryTree.cpp">
+      <Filter>Source Files\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="7.2GraphStore.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="3.4.2Queue.cpp">
+      <Filter>Source Files\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="2.3LinkList.cpp">
+      <Filter>Source Files\LinearList</Filter>
+    </ClCompile>
+    <ClCompile Include="9.1StaticSearch.cpp">
+      <Filter>Source Files\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="3.1Stack.cpp">
+      <Filter>Source Files\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="3.2.5Operator.cpp">
       <Filter>Source Files\Stack</Filter>
     </ClCompile>
   </ItemGroup>
