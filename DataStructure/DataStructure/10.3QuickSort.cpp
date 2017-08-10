@@ -8,8 +8,6 @@
 
 void quickSort(int arr[],int left,int right) {
 
-	
-
 	if (left<right)
 	{
 		int i = left, j = right, tmp = arr[left];   //将最左边的数选为基准数字

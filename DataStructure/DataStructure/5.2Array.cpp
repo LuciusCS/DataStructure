@@ -48,10 +48,10 @@ int num(int num_args,...){   //num_args表示的是有多少个数相加
 
 
 
-int main() {
-	printf("数组测试");
-
-	system("pause");
-	return 0;
-
-}
+//int main() {
+//	printf("数组测试");
+//
+//	system("pause");
+//	return 0;
+//
+//}

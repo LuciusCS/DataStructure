@@ -20,7 +20,7 @@ pBinaryTree createBinaryTree() {
 	pBinaryTree treeNode = NULL;
 	scanf("%c", &tmp);
 
-	//构建测试用例ABC##D##E#F##
+	//构建测试用例abd###c#e##
 	if (tmp == '#')
 	{
 		treeNode = NULL;
@@ -100,5 +100,6 @@ void lastVisitBiTree(pBinaryTree lastRoot) {
 //	printf("\n");
 //	lastVisitBiTree(binaryTree);
 //	printf("测试二叉树");
+//	system("pause");
 //	return 0;
 //}

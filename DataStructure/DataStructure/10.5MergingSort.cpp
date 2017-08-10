@@ -32,20 +32,28 @@ void mergeSort(int a[],int first,int last,int tmp[]) {
 		mergeSort(a, mid+1, last, tmp);//右边有序
 		mergeArray(a,first,mid,last,tmp);  //将两个数组合并
 	}
-
-
 }
 
 //int main() {
 //
 //	int a[7] = {7,8,9,10,1,2,3};
 //	int tmp[7];
-//	//mergeArray(a, 1, 3, 5, tmp);
+//	printf("测试数组归并\n");
+//
+//	mergeArray(a, 1, 3, 5, tmp);
+//	for (int i = 0; i < 7; i++)
+//	{
+//		printf("%d\n", a[i]);
+//	}
+//
+//	printf("测试数组归并排序\n");
 //	mergeSort(a,0,6,tmp);
 //
 //	for (int i = 0; i < 7; i++)
 //	{
 //		printf("%d\n", a[i]);
 //	}
+//
+//	system("pause");
 //	return 0;
 //}
