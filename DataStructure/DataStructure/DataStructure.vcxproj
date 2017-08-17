@@ -126,8 +126,12 @@
     <ClCompile Include="6.3ThreadingBinaryTree.cpp" />
     <ClCompile Include="9.1StaticSearch.cpp" />
     <ClCompile Include="7.2GraphStore.cpp" />
+    <ClCompile Include="BTree.cpp" />
+    <ClCompile Include="BuildMaxHeap.cpp" />
+    <ClCompile Include="BuildMinHeap.cpp" />
     <ClCompile Include="Hanoi.cpp" />
     <ClCompile Include="2.3LinkList.cpp" />
+    <ClCompile Include="HeapSort.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

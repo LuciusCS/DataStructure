@@ -37,6 +37,9 @@
     <Filter Include="Source Files\Search">
       <UniqueIdentifier>{84398327-cc28-4698-836b-0a5a0d71d3e9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Sort\Heap">
+      <UniqueIdentifier>{00d95c95-806f-49cd-aff3-58ccdf0f0c9c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3.4.3QueueCircle.cpp">
@@ -86,6 +89,18 @@
     </ClCompile>
     <ClCompile Include="6.3ThreadingBinaryTree.cpp">
       <Filter>Source Files\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapSort.cpp">
+      <Filter>Source Files\Sort\Heap</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildMinHeap.cpp">
+      <Filter>Source Files\Sort\Heap</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildMaxHeap.cpp">
+      <Filter>Source Files\Sort\Heap</Filter>
+    </ClCompile>
+    <ClCompile Include="BTree.cpp">
+      <Filter>Source Files\Search</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

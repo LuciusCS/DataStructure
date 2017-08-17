@@ -1,2 +1,6 @@
-﻿  DataStructure.vcxproj -> D:\project\VisualStudio\DataStructure\DataStructure\Debug\DataStructure.exe
+﻿  BTree.cpp
+  7.2GraphStore.cpp
+d:\project\visualstudio\datastructure\datastructure\datastructure\7.2graphstore.cpp(15): warning C4091: 'typedef ': ignored on left of 'MGraph' when no variable is declared
+  Generating Code...
+  DataStructure.vcxproj -> D:\project\VisualStudio\DataStructure\DataStructure\Debug\DataStructure.exe
   DataStructure.vcxproj -> D:\project\VisualStudio\DataStructure\DataStructure\Debug\DataStructure.pdb (Partial PDB)

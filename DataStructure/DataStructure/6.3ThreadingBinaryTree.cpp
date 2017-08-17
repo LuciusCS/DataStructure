@@ -147,17 +147,17 @@ void InVisitThreadTree(pBinaryTree binarytree) {
 }
 
 
-int main() {
-	pBinaryTree TbinaryTree, Head;
-	TbinaryTree = createBinaryTree();
-	printf("二叉树的先序遍历\n");
-	preVisitBiTree(TbinaryTree);
-	printf("\n二叉树的中序遍历\n");
-	inVisitBiTree(TbinaryTree);
-	InOrderThreading(TbinaryTree, Head);
-	printf("\n中序线索二叉树的中序遍历\n");
-	InVisitThreadTree(Head);
-	printf("\n");
-	system("pause");
-	return 0;
-}
+//int main() {
+//	pBinaryTree TbinaryTree, Head;
+//	TbinaryTree = createBinaryTree();
+//	printf("二叉树的先序遍历\n");
+//	preVisitBiTree(TbinaryTree);
+//	printf("\n二叉树的中序遍历\n");
+//	inVisitBiTree(TbinaryTree);
+//	InOrderThreading(TbinaryTree, Head);
+//	printf("\n中序线索二叉树的中序遍历\n");
+//	InVisitThreadTree(Head);
+//	printf("\n");
+//	system("pause");
+//	return 0;
+//}
