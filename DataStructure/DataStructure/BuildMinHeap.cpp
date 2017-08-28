@@ -28,7 +28,6 @@ void shifDown(minHeap &H, int m) {
 			H.heap[j] = tmp;
 			m = j;
 		}
-			
 	}
 }
 
@@ -40,7 +39,7 @@ void createMinHeap(minHeap &H, int arr[], int n) {
 		H.heap[i] = arr[i];
 	H.n = n;
 	for (int i = (H.n - 2) / 2; i >=0;i--) {   //自底向上逐步扩大小根堆
-		shifDown(H,i);                //局部自上向下筛选
+		shifDown(H,i);                       //局部自上向下筛选
 	}
 }
 

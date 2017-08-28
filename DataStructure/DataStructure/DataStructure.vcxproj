@@ -124,8 +124,11 @@
     <ClCompile Include="5.2Array.cpp" />
     <ClCompile Include="6.2BinaryTree.cpp" />
     <ClCompile Include="6.3ThreadingBinaryTree.cpp" />
+    <ClCompile Include="6.5HuffmanTree.cpp" />
+    <ClCompile Include="7.2AdjacencyList.cpp" />
+    <ClCompile Include="7.3DepthFirstSearch.cpp" />
     <ClCompile Include="9.1StaticSearch.cpp" />
-    <ClCompile Include="7.2GraphStore.cpp" />
+    <ClCompile Include="7.2AdjacencyMatrix.cpp" />
     <ClCompile Include="BTree.cpp" />
     <ClCompile Include="BuildMaxHeap.cpp" />
     <ClCompile Include="BuildMinHeap.cpp" />

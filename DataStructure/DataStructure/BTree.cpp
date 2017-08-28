@@ -24,9 +24,9 @@ typedef struct Triple {
 };                       //tag=0，搜索成功；tag=1,搜索不成功
 
 
-
-int main() {
-
-	system("pause");
-	return 0;
-}
+//
+//int main() {
+//
+//	system("pause");
+//	return 0;
+//}

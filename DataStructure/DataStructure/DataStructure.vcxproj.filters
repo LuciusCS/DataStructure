@@ -69,9 +69,6 @@
     <ClCompile Include="6.2BinaryTree.cpp">
       <Filter>Source Files\BinaryTree</Filter>
     </ClCompile>
-    <ClCompile Include="7.2GraphStore.cpp">
-      <Filter>Source Files\Graph</Filter>
-    </ClCompile>
     <ClCompile Include="3.4.2Queue.cpp">
       <Filter>Source Files\Queue</Filter>
     </ClCompile>
@@ -101,6 +98,18 @@
     </ClCompile>
     <ClCompile Include="BTree.cpp">
       <Filter>Source Files\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="7.2AdjacencyList.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="7.2AdjacencyMatrix.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="6.5HuffmanTree.cpp">
+      <Filter>Source Files\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="7.3DepthFirstSearch.cpp">
+      <Filter>Source Files\Graph</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

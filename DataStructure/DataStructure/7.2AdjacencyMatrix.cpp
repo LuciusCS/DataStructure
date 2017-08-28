@@ -69,21 +69,21 @@ void CreateGraph(MGraph &G, int numVertex, int numEdge) {
 		}
 	}
 }
-
-int main() {
-
-	MGraph G;
-	InitGraph(G);
-	CreateGraph(G, 5, 7);
-	printf("\n结果输出\n");
-	for (int i = 0; i < 7; i++)
-	{
-		for (int j = 0; j < 7; j++)
-		{
-			printf("%d ",G.Edge[i][j]);
-		}
-		printf("\n");
-	}
-	system("pause");
-	return 0;
-}
+//
+//int main() {
+//
+//	MGraph G;
+//	InitGraph(G);
+//	CreateGraph(G, 5, 7);
+//	printf("\n结果输出\n");
+//	for (int i = 0; i < 7; i++)
+//	{
+//		for (int j = 0; j < 7; j++)
+//		{
+//			printf("%d ",G.Edge[i][j]);
+//		}
+//		printf("\n");
+//	}
+//	system("pause");
+//	return 0;
+//}
