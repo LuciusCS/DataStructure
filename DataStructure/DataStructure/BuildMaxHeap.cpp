@@ -52,9 +52,10 @@ void createHeap(MaxHeap &H, int arr[],int n) {
 //	int arr[8] = {1,2,3,4,5,6,7,8};
 //	MaxHeap H;
 //	createHeap(H, arr,8);
+//	printf("大根堆的创建结果\n");
 //	for (int  i = 0; i < 8; i++)
 //	{
-//		printf("%d\n",H.heap[i]);
+//		printf(" %d ",H.heap[i]);
 //	}
 //	system("pause");
 //	return 0;

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//堆排序以最大最为例，按照从小到大的顺序排序（最小堆排序类似）
+//堆排序以最大堆为例，按照从小到大的顺序排序（最小堆排序类似）
 
 #define HeapSize 128
 //大根堆的数据结构
@@ -31,7 +31,6 @@ void shiftHeapSort(MaxHeapSort &H, int m,int n) {
 			m = i;
 		}
 	}
-
 }
 
 
@@ -42,41 +41,38 @@ void createHeapSort(MaxHeapSort &H, int arr[], int n) {
 		H.heap[i] = arr[i];
 	}
 	H.n = n;
-
 	for (int i = (n - 2) / 2; i >= 0; i--)
 	{
 		shiftHeapSort(H, i,H.n);
 	}
-
-
 }
 
 
-//int main(){
-//	 
-//	int a[7] = {7,6,5,4,3,2,1};
-//	//首先构建最大堆
-//	MaxHeapSort H;
-//	createHeapSort(H, a, 7);
-//	//最大堆排序是将每次将堆定的元素与与最后一个元素进行交换，然后再将堆调整为最大堆
-//	int tmp;//作为临时交
-//
-//	for (int i = H.n-1; i >=0; i--)
-//	{
-//		tmp = H.heap[0];
-//		H.heap[0] = H.heap[i];
-//		H.heap[i] = tmp;
-//		//将其再次调整为最大堆
-//		for (int j = i/2; j >=0; j--)
-//		{
-//			shiftHeapSort(H,j,i);
-//		}
-//	}
-//
-//	for (int i = 0; i < 7; i++)
-//	{
-//		printf("%d\n",H.heap[i]);
-//	}
-//	system("pause");
-//	return 0;
-//}
+int main(){
+	 
+	int a[7] = {7,6,5,4,3,2,1};
+	//首先构建最大堆
+	MaxHeapSort H;
+	createHeapSort(H, a, 7);
+	//最大堆排序是将每次将堆定的元素与与最后一个元素进行交换，然后再将堆调整为最大堆
+	int tmp;
+	for (int i = H.n-1; i >=0; i--)
+	{
+		tmp = H.heap[0];
+		H.heap[0] = H.heap[i];
+		H.heap[i] = tmp;
+		//将其再次调整为最大堆
+		for (int j = i/2; j >=0; j--)
+		{
+			shiftHeapSort(H,j,i);
+		}
+	}
+
+	printf("最大堆排序结果：\n");
+	for (int i = 0; i < 7; i++)
+	{
+		printf("%d ",H.heap[i]);
+	}
+	system("pause");
+	return 0;
+}

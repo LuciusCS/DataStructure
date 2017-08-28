@@ -61,14 +61,14 @@ void createHuffmanTree(HuffmanTree &HT,int weight[],int n) {
 }
 
 
-int main() {
-	int weight[5] = {7,5,2,4,6};
-	HuffmanTree ht;
-    createHuffmanTree(ht,weight,5);
-	for (int i = 0; i < 9; i++)
-	{
-		printf("%d %d %d %d\n", ht.elem[i].weight,ht.elem[i].parent, ht.elem[i].lChild, ht.elem[i].rChild);
-	}
-	system("pause");
-	return 0;
-}
+//int main() {
+//	int weight[5] = {7,5,2,4,6};
+//	HuffmanTree ht;
+//    createHuffmanTree(ht,weight,5);
+//	for (int i = 0; i < 9; i++)
+//	{
+//		printf("%d %d %d %d\n", ht.elem[i].weight,ht.elem[i].parent, ht.elem[i].lChild, ht.elem[i].rChild);
+//	}
+//	system("pause");
+//	return 0;
+//}

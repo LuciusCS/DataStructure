@@ -1,5 +1,3 @@
-﻿  6.5HuffmanTree.cpp
-d:\project\visualstudio\datastructure\datastructure\datastructure\6.5huffmantree.cpp(17): warning C4091: 'typedef ': ignored on left of 'HuffmanNode' when no variable is declared
-d:\project\visualstudio\datastructure\datastructure\datastructure\6.5huffmantree.cpp(23): warning C4091: 'typedef ': ignored on left of 'HuffmanTree' when no variable is declared
+﻿  HeapSort.cpp
   DataStructure.vcxproj -> D:\project\VisualStudio\DataStructure\DataStructure\Debug\DataStructure.exe
   DataStructure.vcxproj -> D:\project\VisualStudio\DataStructure\DataStructure\Debug\DataStructure.pdb (Partial PDB)
